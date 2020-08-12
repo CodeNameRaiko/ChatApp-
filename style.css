@@ -1,0 +1,248 @@
+ body {
+margin:0 auto;
+background:#E9EDFF;
+ overflow-x:hidden;
+}
+
+.mainsvg {
+  background-image: url("./imgs/main-bg.svg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+ 
+.Landingheader {
+display: flex; 
+justify-content: space-between;
+align-items:center;
+}
+
+.Logo {
+  float:left;
+  line-height:3px;
+  margin-top:30px;
+  margin-left: 20px;
+}
+
+nav {
+  margin-top:30px;
+  margin-right:10px;
+}
+
+nav li a {
+ text-decoration: none;
+   color:#424874; 
+   font-family: Varela Round;
+   font-size: 24px;
+   transition: 200ms ease;
+  }
+
+nav li {
+  list-style: none;
+  padding: 30px;
+ display: inline;
+  }
+
+li a:hover {
+border-bottom: #424874 solid; 
+}
+
+li a:active {
+border-bottom: #252a4b solid; 
+color:#252a4b;
+}
+
+/* Login button */
+.signIn {
+
+width: 127px;
+height: 57px;
+background: #424874;
+border-radius: 4px;
+padding:20px; 
+}
+
+/* Sign In */
+
+#signInside {
+width: 112px;
+height: 51px;
+font-family: Varela Round;
+font-size: 24px;
+color: #F4EEFF;
+
+}
+
+#signInside:hover {
+border-bottom: solid #A6B1E1;
+}
+
+#signInside:active {
+  color:#424874;
+}
+
+.slogan {
+position: relative;
+top:80px;
+width: 100%;
+}
+
+.catchLine {
+width: 634px;
+font-family: Varela Round;
+font-size: 48px;
+color: #F4EEFF;
+text-align: center;
+padding-left: 10px; 
+}
+ 
+.punchLine {
+width: 446px;
+height: 80px;
+ font-family: Quicksand;
+font-size: 48px;
+color: #F4EEFF;
+text-align: center;
+padding-left: 24px; 
+margin-top:-45px;
+font-weight:normal;
+}
+
+.rely {
+  padding:0 5px; 
+ font-family: Quicksand;
+ color:#A6B1E1;
+}
+
+.mobileAnnouncement {
+position: relative;
+font-family: Varela Round; 
+font-size: 48px;
+line-height: 58px;
+color: #F4EEFF; 
+left:880px;
+}
+
+.AppStore {
+ margin-right: 50px;
+}
+
+
+
+ .pHelp {
+font-family: Varela Round;
+font-size: 36px;
+line-height: 43px;
+color: #424874;  
+
+
+}
+
+.helpAlign {
+  position: absolute; 
+  top:719px;
+  text-align: center;
+  width:561px; 
+}
+
+ .needHelp {
+position: relative;
+left:30px;
+width: 490px;
+height: 94px;
+font-family: Varela Round;
+font-size: 64px;
+line-height: 77px;
+color: #383D63;
+ }
+
+.learnMore {
+width: 201px;
+height: 69px; 
+border-radius: 12px;
+background:#A6B1E1;
+color:#F4EEFF;
+font-size:24px;
+font-family: Varela Round;
+transition: 200ms ease;
+}
+
+.learnMore:hover {
+background:#424874;
+color:#F4EEFF; 
+
+}
+
+.learnMore:active {
+background:#F4EEFF;
+color:#424874 
+}
+
+
+.first, .last {
+  font-family: Varela Round;
+  font-size:24px;
+  color:#424874; 
+}  
+
+/* CSS Login page */
+
+.page {
+
+
+} 
+
+.tab {
+position: relative;
+top:100px;
+left:40%;
+height: 600px;
+width:600px;
+background:#424874;
+text-align: center;
+font-family: "Varela Round", Arial;
+color:#F4EEFF;
+padding-top:20px;
+border-radius:14px;
+background: rgb(66,72,116);
+background: linear-gradient(144deg, rgba(66,72,116,1) 51%, rgba(34,39,74,1) 51%);
+}
+
+.submit {
+  padding:15px; 
+  background:#1a1d35;
+  color:#F4EEFF;
+  border-radius: 8px;
+  transition: 100ms ease;
+}
+
+.submit:hover {
+background:#252a4b;
+}
+
+.submit:active {
+color:#1a1d35;
+background:#F4EEFF;
+}
+
+input {
+border: none; 
+color:#424874;
+font-size:24px;
+border-radius: 3.5px;
+padding:5px;
+} 
+
+.grid {
+display:grid;
+padding:25px;
+}
+
+label {
+  padding-bottom: 5px;
+}
+
+
+::placeholder {
+  text-align: center;
+}
