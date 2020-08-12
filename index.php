@@ -15,7 +15,7 @@
 
  <header class="Landingheader">
  <a href="index.php">
- <img src="logo.svg" class="Logo" style="user-select:none;"> 
+ <img src="./imgs/logo.svg" class="Logo" style="user-select:none;"> 
  </a>
  <nav>
  <ul>
@@ -35,12 +35,12 @@
 
  <p class="mobileAnnouncement" position:absolute;>In both App Store & Google Play</p> 
   <div class="align" style="display:inline-flex; position:absolute; left:900px;">
-  <img src="appstore.svg" class="AppStore">
-  <img src="googleplay.svg" class="GooglePlay">
+  <img src="./imgs/appstore.svg" class="AppStore">
+  <img src="./imgs/googleplay.svg" class="GooglePlay">
 </div>
 
 <div class="alignphones" style="position:relative; left:1560px; bottom:267px;">
-<img src="Phones.png" id="phoneSVG" style="user-select:none;">
+<img src="./imgs/Phones.png" id="phoneSVG" style="user-select:none;">
 </div>
 </div>
 
